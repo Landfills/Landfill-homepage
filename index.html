@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Landfill for New York</title>
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet"> -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	</head>
+	<body>
+		<div class="wrap">
+			<header class="main-header">
+				<div class="container clearfix">
+					<h1 class="name"><a href="#">Landfill for New York</a></h1>
+					<ul class="main-nav">
+						<li><a href="events-summary.html">Events</a></li>
+						<li><a href="">Exploration</a></li> 
+						<li><a href="">About</a></li>
+						<li><a href="">Contact</a></li>
+					</ul>
+				</div>	
+			</header>
+			<div class="index-carousel">
+			<figure>
+	  			<img class="carousel-image" src="images/home-image1.jpg">
+	 			<img class="carousel-image" src="images/home-image2.jpg">
+	 			<img class="carousel-image" src="images/home-image3.jpg">
+	 			<img class="carousel-image" src="images/home-image4.jpg">
+	 			<button class="carousel-button-back" onclick="plusDivs(-1)">&#10094;</button>
+	 			<button class="carousel-button-forward" onclick="plusDivs(1)">&#10095;</button>
+	 			<!-- <figcaption> 
+					<span class="tagline-primary">Workshop: Re-imagining Our Waste Heritage</span>
+					<br>
+					<span class="tagline-secondary">Friday July 15, 3 - 6 pm </span>
+				</figcaption>-->
+ 			</figure>
+		</div>
+
+		<script> 
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+  			showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			  var i;
+			  var x = document.getElementsByClassName("carousel-image");
+			  if (n > x.length) {slideIndex = 1}    
+			  if (n < 1) {slideIndex = x.length}
+			  for (i = 0; i < x.length; i++) {
+			     x[i].style.display = "none";  
+			  }
+			  x[slideIndex-1].style.display = "block";  
+			}
+		</script>
+				<div class="container clearfix">
+					<!-- <div class="feed group">  -->
+						<div class="first col">
+							<p class="col-title">What is Edgemere Landfill?</p>
+							<p class="col-paragraph">Edgemere Landfill, a former municipal dump in the Rockaways, Queens, has been closed for over 20 years. Today, Edgemere landfill is capped and is at the end of remedia­tion process. The land is facing an as-yet-undeter­mined future.
+							 </p>
+							 <a class="callout" href="">Read more</a>
+							<!-- <a class="feed-button" href="exploration.html">Participate</a> -->
+						</div>
+						<div class="second col">
+							<p class="col-title">Landfill for New York Team
+							</p>
+							<p class="col-paragraph">While all of the members of team represent different professions, they all share an interest in bringing arts, science and design together as a way to create a change. Often, their project sites have an ambiguous reputation.
+							 </p>
+							<a class="callout" href="">Read more</a>
+						</div>
+						<div class="third col">
+							<p class="col-title">Past Events: Art and Resiliency: Landfill for New York</p>
+							<p class="col-paragraph">Workshop participants discussed the reasons why and the ways how artists play a role in the resiliency efforts and community-based planning, as well as how to test and implement those in Landfill for New York.</p>
+							<a class="callout" href="events-summary.html">Read more</a>
+						</div>
+					<!-- </div> -->
+				</div>
+			</div>		
+		<footer class="main-footer">
+			<p class="footer-text">
+			&copy; 2017 Landfill for New York</p>
+		</footer>
+		<script type=" src="scripts.js"></script>
+	</body>
+</html>
