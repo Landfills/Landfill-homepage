@@ -98,7 +98,7 @@ figcaption {
     margin-right: auto;*/
 }
 
-.event-summary-image {
+.summary-image {
 	margin-left: auto;
     margin-right: auto;
 }
@@ -218,6 +218,10 @@ figcaption {
 	margin-bottom: 20px;
 }
 
+.text-link {
+    text-decoration: underline;
+}
+
 /* ================================= 
   Base Layout Styles
 ==================================== */
@@ -240,7 +244,7 @@ figcaption {
 .article-title {
 	color: #4A4A4A;
 	display: block;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .article-paragraph-summary {
@@ -385,6 +389,10 @@ col {
 
 .footer-text {
 	color: #fff;
+}
+
+.about-image {
+	width: 100%;
 }
 
 /* ---- Positioning elements ---- 
