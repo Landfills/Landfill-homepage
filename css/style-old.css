@@ -1,0 +1,223 @@
+/* Web fonts */
+
+/* Base element styles */
+* {
+	box-sizing: border-box;
+}
+
+
+/* Type selectors */
+
+header {
+	background: #E4EAED;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+body {
+	font: 1em/1.5 "Avenir-Book", sans-serif;
+}
+
+footer {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+p{
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* ===========================
+CLASS SELECTORS
+============================== */
+
+/* ---Navigation --- */
+
+.main-nav {
+	margin-top: 5px;
+}
+ 
+.main-nav li {
+	display: inline-block;
+	text-align: right;
+	padding: 5px 10px;
+	font-size: .95rem;
+	color: #2B2B27;
+}
+
+.logo {
+	width: 400px;
+}
+
+/* --- Layout containers --- */
+
+.main-header {
+	padding-top: .5rem;
+	padding-bottom: .5rem;
+	color: #2B2B27;
+	background: red;
+}	
+
+.banner, 
+.main-footer {
+	text-align: left;
+}
+
+.banner {
+	color: #fff;
+	background: /*linear-gradient (0deg, #fff, transparent),*/
+				#E4EAED url('../images/Edgemere-entrance.jpg') no-repeat center;
+	background-size: cover;
+	padding: 3.2rem 0;
+	margin-bottom: 60px;
+	min-height: 650px;
+	position: relative;
+}
+
+.main-announcement {
+	color: #E4EAED;
+	padding: 2%;
+	font-size: 2rem;
+	text-align: left;
+	position: absolute;
+	bottom: 20px;
+
+/*.main-footer {
+	background: #4A4A4A;
+	padding: 2rem 0;
+	margin-top: 30px;
+	font-family: Avenir-Heavy, sans-serif;
+	font-size: 1rem;
+	height: 120px;
+}*/
+
+.main-footer {
+	color:red;
+	background-color: red;
+	height: 10rem;
+}
+.primary-content {
+	font-family: Avenir-Book, sans-serif;
+	font-size: 1rem;
+	color: #2B2B27;
+	letter-spacing: -0.34px;
+	text-align: left;
+	width: 75%;
+	margin: 10%;
+}
+
+.callout {
+	font-family: Avenir-Heavy;
+	font-size: 20px;
+	color: #FF5055;
+	letter-spacing: -0.34px;
+}
+
+
+/* --- Pseudo-class selectors --- */
+
+a:link {
+	color: #2B2B27;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #2B2B27;
+}
+
+a:hover {
+	color:#FF5055;
+	text-decoration: none;
+}
+
+a:active {
+	color:#FF5055;
+	text-decoration: none;
+}
+
+
+
+/* --- Media queries --- */
+
+@media (min-width: 769px) {
+	.container {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.wrap {
+		min-height: calc(100vh - 300px);
+	}
+	
+	/* Floated columns */
+
+	.item {
+		width: 33.3%;
+		padding: 2%;
+		float: left;
+	}
+
+
+
+	.feed {
+		overflow: auto;
+	}
+
+	/* Logo 
+	.logo, 
+	.main-nav, 
+	.main-nav li {
+		display: inline-block;
+	}
+
+	.logo{
+		float:left;
+	}
+
+	.main-nav {
+		float:right;
+		width: 30%;
+	}
+
+	.main-nav li {
+		float:left;
+	}
+
+
+	.clearfix:: after {
+		content: "";
+		display: table;
+		clear: both; 
+	}
+
+	.main-nav li {
+		padding: 0 2px;
+		margin: 1%
+	} */
+
+
+
+
+Float Clearfix 
+
+ .group:after {
+ 	content: "";
+ 	display: "table";
+ 	clear: left;
+ }
+
+
+
+
+

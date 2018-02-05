@@ -7,7 +7,7 @@
 
 body {
 	/*font-family: 'Open Sans', sans-serif;*/
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Raleway'; /*sans-serif;*/
 	line-height: 1.6;
 	color: #3a3a3a;
 }
@@ -21,6 +21,10 @@ h2,
 h3, 
 a { 
 	color: #2b2b27;
+}
+
+h1{
+	font-weight: 600;
 }
 
 h2,
@@ -68,6 +72,7 @@ figcaption {
 
 .summary-title{
 	margin-top: 0;
+	line-height: normal;
 }
 
 
@@ -161,7 +166,7 @@ figcaption {
 .article-title {
 	/*font-family: 'Playfair Display', serif;*/
 	font-size: 2em;
-	font-weight: 700;
+	font-weight: 600;
 	/*text-transform: uppercase;*/
 }
 
@@ -228,6 +233,9 @@ figcaption {
 
 /* ---- Page Elements ---- */
 
+.team-member {
+	font-weight: 900;
+}
 .section-title {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
@@ -237,14 +245,18 @@ figcaption {
 
 .article {
 	/*display: block;*/
-    column-count: 2;
-    column-width: 10px;
+    /*column-count: 2;*/
+    /*column-width: 10px;*/
+    width: 70%;
+    margin-left: 15%;
 }
 
 .article-title {
 	color: #4A4A4A;
 	display: block;
-	margin-bottom: 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	line-height: normal;
 }
 
 .article-paragraph-summary {
@@ -383,7 +395,7 @@ col {
 
 .main-footer {
 	text-align: center;
-	padding: 1.2em 0;
+	padding: 2.3em 0;
 	background: #4A4A4A;
 }
 
